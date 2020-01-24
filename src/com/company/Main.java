@@ -10,7 +10,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         List<String> lista = new ArrayList<>();
         int suma = 0;
-        int pok = 0;
         for(;;) {
             lista.add(scanner.nextLine());
             if(lista.contains("")) break;
